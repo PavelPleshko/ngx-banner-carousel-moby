@@ -1,6 +1,6 @@
 {
   "name": "ngx-banner-carousel-moby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular carousel component",
   "main": "index.js",
   "typings": "./dist/index.d.ts",
@@ -15,10 +15,7 @@
   "devDependencies": {
     "typescript": "^2.7.2"
   },
-  "dependencies": {
-   
-    
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@angular/common": ">=4.0.0",
     "@angular/core": ">=4.0.0",
