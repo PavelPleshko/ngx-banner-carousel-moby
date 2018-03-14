@@ -71,7 +71,7 @@ config:any={
   }
 };
 ```
-If config is not provided component will use default values:
+
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |
 | `autoplay` | boolean | `true` | Whether or not automatically change slides |
