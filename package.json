@@ -1,0 +1,29 @@
+{
+  "name": "ngx-banner-carousel-moby",
+  "version": "1.0.0",
+  "description": "Angular carousel component",
+  "main": "index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "carousel"
+  ],
+  "author": "Pavel Pleshko",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+   
+    
+  },
+  "peerDependencies": {
+    "@angular/common": ">=4.0.0",
+    "@angular/core": ">=4.0.0",
+    "@angular/router": ">=4.0.0",
+    "rxjs": ">=5.0.0",
+    "zone.js": "^0.8.14"
+  }
+}
