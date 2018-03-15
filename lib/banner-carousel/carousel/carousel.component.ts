@@ -18,7 +18,7 @@ export interface ISlide{
 }
 
 @Component({
-  selector: 'app-carousel',
+  selector: 'ngx-carousel-moby',
   template: `<div class="banner-carousel-arrows">
     <a class="control carousel-ctrl-btn prev" (click)="moveToPrev()"><i class="material-icons">keyboard_arrow_left</i></a>
 <a class="control carousel-ctrl-btn next" (click)="moveToNext()"><i class="material-icons">keyboard_arrow_right</i></a>
