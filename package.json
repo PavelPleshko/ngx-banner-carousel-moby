@@ -12,6 +12,14 @@
   ],
   "author": "Pavel Pleshko",
   "license": "ISC",
+   "repository": {
+        "type": "git",
+        "url": "https://github.com/PavelPleshko/ngx-banner-carousel-moby"
+    },
+    "bugs": {
+        "url": "https://github.com/PavelPleshko/ngx-banner-carousel-moby/issues"
+    },
+    "readme": "https://github.com/PavelPleshko/ngx-banner-carousel-moby/blob/master/README.md",
   "devDependencies": {
     "typescript": "^2.7.2"
   },
