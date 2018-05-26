@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "ngx-carousel1",
   "version": "0.0.0",
   "license": "MIT",
@@ -49,5 +50,38 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
+=======
+  "name": "ngx-banner-carousel-moby",
+  "version": "1.0.2",
+  "description": "Angular carousel component",
+  "main": "index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "carousel"
+  ],
+  "author": "Pavel Pleshko",
+  "license": "ISC",
+   "repository": {
+        "type": "git",
+        "url": "https://github.com/PavelPleshko/ngx-banner-carousel-moby"
+    },
+    "bugs": {
+        "url": "https://github.com/PavelPleshko/ngx-banner-carousel-moby/issues"
+    },
+    "readme": "https://github.com/PavelPleshko/ngx-banner-carousel-moby/blob/master/README.md",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@angular/common": ">=4.0.0",
+    "@angular/core": ">=4.0.0",
+    "@angular/router": ">=4.0.0",
+    "rxjs": ">=5.0.0",
+    "zone.js": "^0.8.14"
+>>>>>>> b3846c86ec5d5a452d864d9203a2cc65ec3e3d1e
   }
 }
