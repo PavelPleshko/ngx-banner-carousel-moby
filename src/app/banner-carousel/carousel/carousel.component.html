@@ -1,0 +1,21 @@
+
+<div class="arrows">
+		<a class="control carousel-ctrl-btn prev" (click)="moveToPrev()"><i class="material-icons">keyboard_arrow_left</i></a>
+<a class="control carousel-ctrl-btn next" (click)="moveToNext()"><i class="material-icons">keyboard_arrow_right</i></a>
+</div>
+<div class="carousel-inner" #carousel_inner>
+<div class="carousel-items">
+
+			<div *ngFor="let slide of slides;let i=index;" class="carousel-item-img" id="slide-{{i}}" [style.background-image]='"url("+slide.src+")"'><div class="slide-caption" *ngIf="config.caption.enabled"><h3 class="slide-caption-header">{{slide.caption.header}}</h3>
+			<div class="slide-caption-subheader">{{slide.caption.subheader}}</div>
+			<a *ngIf="slide.caption.callToActionBtn.text.length>0" class="slide-caption-call-to-action-btn" [routerLink]="slide.caption.callToActionBtn.link">{{slide.caption.callToActionBtn.text}}</a>
+			</div></div>
+			
+		
+</div>
+
+</div>
+<div class="points" #points *ngIf="config.points.visible">
+<div *ngFor="let point of points$ | async;let i=index;" id="point-{{i}}" class="point" [class.active]="point"></div>
+	</div>
+
