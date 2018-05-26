@@ -1,35 +1,12 @@
-<<<<<<< HEAD
-# NgxCarousel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
 # Ngx Banner Carousel Moby.
 Very lightweight carousel angular component.
 `Carousel already contains default css. But it's easily customizable`;
+
+Live demo: https://pavelpleshko.carousel.now.sh
+
+Screenshot:
+![screen carousel](screen_carousel.png)
 
 ## Installation
 
@@ -48,6 +25,7 @@ import { BannerCarouselModule } from 'ngx-banner-carousel-moby/dist';
 })
 export class YourModule { }
 ```
+
 
 ### Inclusion of module will give you access to the carousel component which you can include in your components. Example:
 ```
@@ -116,4 +94,4 @@ config:any={
 
 ## Events 
 `slideChanged` - emits index of the current slide
->>>>>>> b3846c86ec5d5a452d864d9203a2cc65ec3e3d1e
+
