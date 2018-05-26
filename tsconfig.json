@@ -1,24 +1,4 @@
 {
-<<<<<<< HEAD
-  "compileOnSave": false,
-  "compilerOptions": {
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ]
-  }
-}
-=======
   "compilerOptions": {
     "removeComments": true,
     "target": "es5",
@@ -30,13 +10,14 @@
     "sourceMap": true,
     "rootDir": ".",
     "outDir": "./dist",           
-    "lib": ["es6", "dom"],
+    "lib": ["es6", "dom"]
   },
   "files": [
-    "index.ts",              
+    "index.ts",
+    "src/main.ts",
+    "src/polyfills.ts"           
   ],
   "exclude": [
     "node_modules"
   ]
 }
->>>>>>> b3846c86ec5d5a452d864d9203a2cc65ec3e3d1e

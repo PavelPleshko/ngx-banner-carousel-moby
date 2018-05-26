@@ -3,7 +3,7 @@
 Very lightweight carousel angular component.
 `Carousel already contains default css. But it's easily customizable`;
 
-Live demo: https://pavelpleshko.carousel.now.sh
+Live demo: https://pavelpleshko-carousel.now.sh
 
 Screenshot:
 ![screen carousel](screen_carousel.png)
